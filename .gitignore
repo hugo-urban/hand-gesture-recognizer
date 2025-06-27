@@ -1,0 +1,41 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración locales
+*.env
+.env.*
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos del modelo o pesos grandes
+models/*.pkl
+models/*.onnx
+models/*.task
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Salida de VSCode
+.vscode/
+
+# Carpeta de resultados o capturas
+outputs/
+captures/
+
+# Archivos específicos de PyInstaller o similares
+dist/
+build/
+*.spec
